@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Cabecalho from './Cabecalho'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-
+        <Cabecalho />
       </div>
     </>
   )
