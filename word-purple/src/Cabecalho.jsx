@@ -2,14 +2,14 @@ function Cabecalho() {
     return (
         <header className="cabecalho flex justify-between items-center py-[5px] shadow-md w-[100%] fixed bg-white md:h-[8vh]">
             <div className="logo flex items-center ">
-                <img class='hidden md:hidden' src="./src/assets/png-logo.png" alt="" />
+                <img class='hidden md:hidden lg:block lg:w-[50px] relative left-[5px]' src="./src/assets/png-logo.png" alt="" />
 
-                <h1 class='hidden md:block relative left-[10px] text-[25px] md:font-bold'><span class='text-purple-700'>P</span>urple<span class='md:text-purple-700'>W</span>orld</h1>
+                <h1 class='hidden md:block relative left-[10px] text-[25px] md:font-bold lg:text-[30px]'><span class='text-purple-700'>P</span>urple<span class='md:text-purple-700'>W</span>orld</h1>
 
             </div>  
 
             <nav className="navigation flex gap-[90px]">
-                <ul className="nav-list flex gap-[10px] md:gap-[30px] md:pl-[30px] text-[25px] cursor-pointer">
+                <ul className="nav-list flex gap-[10px] md:gap-[30px] md:pl-[30px] text-[25px] lg:text-[28px] lg:pl-[20%] cursor-pointer">
                     <li className="nav-item text-purple-800 hover:text-red-500 transition-[0.2s] cursor-pointer"><a href="#">Home</a></li>
                     <li className="nav-item text-purple-800 hover:text-red-500 transition-[0.2s] cursor-pointer"><a href="#">Menu</a></li>
                     <li className="nav-item text-purple-800 hover:text-red-500 transition-[0.2s] cursor-pointer"><a href="#">Promotions</a></li>
