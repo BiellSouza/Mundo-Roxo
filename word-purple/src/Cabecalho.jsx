@@ -9,7 +9,7 @@ function Cabecalho() {
             </div>  
 
             <nav className="navigation flex gap-[90px]">
-                <ul className="nav-list flex gap-[10px] md:gap-[30px] md:pl-[30px] text-[25px] lg:text-[28px] lg:pl-[20%] 2xl:text-[35px] 2xl:pr-[30px] 2xl:gap-[60px] cursor-pointer">
+                <ul className="nav-list flex gap-[10px] text-[19px] md:gap-[30px] md:pl-[30px] text-[25px] lg:text-[28px] lg:pl-[20%] 2xl:text-[35px] 2xl:pr-[30px] 2xl:gap-[60px] cursor-pointer">
                     <li className="nav-item text-purple-800 hover:text-red-500 transition-[0.2s] cursor-pointer"><a href="#">Home</a></li>
                     <li className="nav-item text-purple-800 hover:text-red-500 transition-[0.2s] cursor-pointer"><a href="#">Menu</a></li>
                     <li className="nav-item text-purple-800 hover:text-red-500 transition-[0.2s] cursor-pointer"><a href="#">Promotions</a></li>
