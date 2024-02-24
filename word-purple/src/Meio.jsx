@@ -1,16 +1,16 @@
 function Meio() {
     return (
-        <main>
-            <section className="hero w-[100%] h-[100%] block flex-col items-center justify-center mt-[2px] font-semibold pt-[70px] px-[10px] md:pt-[20%] lg:pt-[10%] lg:flex lg:flex-row lg:items-center 2xl:flex 2xl:justify-around 2xl:pt-[5%] ">
-                <div className="hero-text w-[100%] lg:w-[70%]">
-                    <h4 class=' text-red-700 text-center text-2xl md:text-4xl lg:text-5xl lg:relative lg:bottom-[30px] 2xl:text-7xl 2xl:relative 2xl:bottom-[70px] '>Welcome to the Purple World</h4>
-                    <h1 class='text-center text-xl text-purple-900 md:text-3xl lg:text-3x1 lg:relative lg:bottom-[20px] 2xl:text-6xl 2xl:relative 2xl:bottom-[50px] '>Mais que um sabor</h1>
-                    <h2 class='text-center text-2xl text-red-700 md:hidden lg:block lg:text-5xl lg:relative lg:bottom-[15px] 2xl:text-7xl 2xl:relative 2xl:bottom-[40px]'>Uma vida</h2>
+        <main class='flex pt-[10%] w-[100%] h-[auto]'>
+            <section className="hero">
+                <div className="hero-text flex flex-col text-center">
+                    <h4 class='font-bold text-purple-700 text-lg'>Welcome to the Purple World</h4>
+                    <h1 class=' font-bold text-red-700 text-lg'>Mais que um sabor</h1>
+                    <h2 class='font-bold text-purple-700 text-xl'>Uma vida</h2>
                 </div>
 
-                <div className="hero-img w-[100%] h-[100vh] lg:w-100% lg:h-auto 2xl:h-auto">
-                    <img class='md:size-[90%] md:relative md:left-[8%] md:z-[-1] 2xl:size-[75%]' src="./src/assets/png-meio.png" alt="" />
-                    <button type="submit" className="btn-pedido absolute left-[36%] mt-[20px] py-[10px] px-[20px] md:relative md:left-[43%] md:mb-[30px] lg:relative lg:bottom-[150px] lg:left-[-45%] 2xl:flex 2xl:relative text-purple-900 font-bold bg-white border-2 border-purple-900 rounded-[10px] hover:scale-[1.1] transition-[0.5s] cursor-pointer" id="chamaform">Peça o seu</button>
+                <div className="hero-img w-[100%] h-[100vh]">
+                    <img class='flex w-[100%]' src="./src/assets/png-meio.png" alt="" />
+                    <button class='flex  relative left-[37%] top-[5%] border-2 px-[3%] py-[3%] border-red-700 rounded-[10%] hover:scale-[1.2]' type="submit" className="btn-pedido" id="chamaform">Peça o seu</button>
                 </div>
             </section>
         </main>
